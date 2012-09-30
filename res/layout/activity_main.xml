@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <com.color.droid.customspinner.view.CustomDropDown
+            android:id="@+id/spnList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text"
+            android:gravity="left|center_vertical"
+            android:padding="@dimen/padding_medium"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="35dp"
+            android:paddingTop="5dp"
+            android:text="Select from list"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrowdown" />
+    </FrameLayout>
+
+</RelativeLayout>
